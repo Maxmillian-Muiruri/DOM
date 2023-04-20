@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(73, 86, 99);
+}
+.container {
+  flex-direction: column;
+  border-radius: 10%;
+  border: 5px solid white;
+}
+.list-items {
+  background-color: azure;
+  padding: 10px 20px;
+  margin: 5px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+#main-heading {
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 20px;
+}
