@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #495663;
+}
+#sports {
+  flex-direction: column;
+  border-radius: 10%;
+  border: 3px solid white;
+}
+#football,
+#basketball,
+#boxing,
+#tennis,
+#golf {
+  color: aliceblue;
+  background-color: #3d4853;
+  padding: 10px 20px;
+  margin: 5px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  border: 3px solid rgb(151, 145, 145);
+}
+
+#main-heading {
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 20px;
+}
